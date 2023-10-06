@@ -1,120 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <title>Prework Study Guide</title>
+    <title>Horiseon| Home page</title>
   </head>
+
   <body>
-    <header id="top">
-      <h1>Prework Study Guide</h1>
-      <img
-        src="./assets/images/bowtie-cat.png"
-        alt="Profile image of cat wearing a bow tie."
-      />
-      <h2>✨ Open the Console to See What's Happening ✨</h2>
-    </header>
-    <main>
-      <section class="card" id="htaml-section">
-        <h2>HTML</h2>
-        <ul>
-          <li>The head elenment contains information about the webpage.</li>
-          <li>The body element represnts the contant shown to the user.</li>
-        </ul>
-      </section>
-
-      <section class="card" id="css-section">
-        <h2>CSS</h2>
-        <ul>
-          <li>CSS holds the design information of the webpage.</li>
-          <li>more CSS note here...</li>
-          <li>
-            The Selector defines the element to which the rules or declarations
-            apply (ex: div, span...).
-          </li>
-          <li>
-            Declarations have two important components: the property (color) and
-            the value (Blue).
-          </li>
-          <li>
-            The (*) selector applies to everything that is visible on the page
-          </li>
-          <li>
-            Connect the CSS sheet in the head using: link rel="stylesheet"
-            href="./assets/style.css" (make sure to save the css file in the
-            right file so that you can access it)
-          </li>
-          <li>
-            A margin indicates how much space we want around the outside of an
-            element.
-          </li>
-          <li>
-            A padding indicates how much space we want around the content inside
-            an element.
-          </li>
-        </ul>
-      </section>
-
-      <section class="card" id="git-section">
-        <h2>Git</h2>
-        <ul>
-          <li>git status: checks what branch we are currently on.</li>
-          <li>
-            git checkout -b branch-name: creates a new branch and switches to
-            it.
-          </li>
-        </ul>
-      </section>
-
-      <section class="card" id="Javescript-section">
-        <h2>Javascript</h2>
+    <div class="header">
+      <h1>Hori<span class="seo">seo</span>n</h1>
+      <div>
         <ul>
           <li>
-            To connect a JS file add the file script src="scripts/main.js">
-            before closing the body tag
+            <a href="#search-engine-optimization">Search Engine Optimization</a>
           </li>
           <li>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics"
-              target="_blank"
-              title="Javascript Basics"
-              >Javascript Basics</a
-            >
-          </li>
-          <li>To add a comment in the Javascript file use /* */ or //.</li>
-          <li>
-            <a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
-              target="_blank"
-              title="JavaScript data types and data structures"
-            >
-              JavaScript data types and data structures</a
+            <a href="#online-reputation-management"
+              >Online Reputation Management</a
             >
           </li>
           <li>
-            A variable is a named container that allows us to store data in our
-            code.
-          </li>
-          <li>
-            Control flow is the order in which a computer executes code in a
-            script.
+            <a href="#social-media-marketing">Social Media Marketing</a>
           </li>
         </ul>
-      </section>
-
-      <section class="card" id="tips-section">
-        <h2>Tips and Tricks</h2>
-        <ul>
-          <li>Add comments to the code as you go use Cmd + /</li>
-        </ul>
-      </section>
-    </main>
-
-    <footer>
-      <p>I can code!</p>
-    </footer>
-    <script src="assets/script.js"></script>
+      </div>
+    </div>
+    <div class="hero"></div>
+    <section class="content">
+      <div class="info-card" id="search-engine-optimization">
+        <img
+          src="./assets/images/search-engine-optimization.jpg"
+          class="float-left"
+          alt="A laptop, coffee cup, pencil jar and notebook laying on a wooden desk. The notebook is open, on the page in big letters 'SEO' is written, around it are listed from the top clockwise: Content, Headlines, Molbile Compatibilty, Social Media, Link Building, Backlink"
+        />
+        <h2>Search Engine Optimization</h2>
+        <p>
+          The dominance of mobile internet use means that users are searching
+          for the right business as they travel, shop, or sit on their couch at
+          home. Search Engine Optimization (SEO) allows you to increase your
+          visibility and find the right customers for your business.
+        </p>
+      </div>
+      <div class="info-card" id="online-reputation-management">
+        <img
+          src="./assets/images/online-reputation-management.jpg"
+          class="float-right"
+          alt="A back of a man sitting next to a desk. In one hand he is holdind a locked iPhone, his other hand is placed on the keyboard of a laptop. The laptop screen is showing multiple colorful charts under a big red headline reading 'Reputation'"
+        />
+        <h2>Online Reputation Management</h2>
+        <p>
+          The web is full of opinions, and some of these can be negative. Social
+          media allows anyone with an internet connection to say whatever they
+          want about your business. Online Reputation Management gives you the
+          control over what potential customers see when they search for your
+          business.
+        </p>
+      </div>
+      <div class="info-card" id="social-media-marketing">
+        <img
+          src="./assets/images/social-media-marketing.jpg"
+          class="float-left"
+          alt="A brown desk seen from the top, on is a are a latopn, tablet, plant, people's hands and colorful cartoons of different things; camera, phone, robot, wi-fi signal, star etc... "
+        />
+        <h2>Social Media Marketing</h2>
+        <p>
+          Social media continues to have a sizable influence on buying habits.
+          Social media marketing helps you determine which platforms are suited
+          to your brand, using analytics to find the right markets and increase
+          your lead generation.
+        </p>
+      </div>
+    </section>
+    <section class="benefits">
+      <div class="benefits-content" class="benefit-lead">
+        <h3>Lead Generation</h3>
+        <img
+          src="./assets/images/lead-generation.png"
+          alt="a cartoon of half a gear going into a funnel. A dollar sign comes out of the funnel"
+        />
+        <p>
+          Inbound strategies for lead generation require less work for your
+          business, bringing customers directly to your website.
+        </p>
+      </div>
+      <div class="benefits-content" class="benefit-brand">
+        <h3>Brand Awareness</h3>
+        <img
+          src="./assets/images/brand-awareness.png"
+          alt="A cartoon of a shirt with a tie, over it, where the head would be, is a light bolb."
+        />
+        <p>
+          Users find your business through paid and organic searches, increasing
+          the search ranking and visibility for your business.
+        </p>
+      </div>
+      <div class="benefits-content" class="benefit-cost">
+        <h3>Cost Management</h3>
+        <img
+          src="./assets/images/cost-management.png"
+          alt="A cartoon of a gear surounded by dollar signs"
+        />
+        <p>
+          As the search ranking for your business increases, your advertising
+          costs decrease, and you no longer need to advertise your page.
+        </p>
+      </div>
+    </section>
+    <div class="footer">
+      <h4>Made with ❤️️ by Horiseon</h4>
+      <p>&copy; 2023 Horiseon Social Solution Services, Inc.</p>
+    </div>
   </body>
 </html>
